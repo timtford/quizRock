@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C21A87C16C86ADF00208DDD /* 30secondsToMars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C21A87716C86ADF00208DDD /* 30secondsToMars.jpg */; };
+		1C21A87D16C86ADF00208DDD /* evanescence.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C21A87816C86ADF00208DDD /* evanescence.jpg */; };
+		1C21A87E16C86ADF00208DDD /* LinkinPark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C21A87916C86ADF00208DDD /* LinkinPark.jpg */; };
+		1C21A87F16C86ADF00208DDD /* Seether.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C21A87A16C86ADF00208DDD /* Seether.jpg */; };
+		1C21A88016C86ADF00208DDD /* threeDays.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C21A87B16C86ADF00208DDD /* threeDays.jpg */; };
 		1C25D5A516C84FE50025FDA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C25D5A416C84FE50025FDA7 /* UIKit.framework */; };
 		1C25D5A716C84FE50025FDA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C25D5A616C84FE50025FDA7 /* Foundation.framework */; };
 		1C25D5A916C84FE50025FDA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C25D5A816C84FE50025FDA7 /* CoreGraphics.framework */; };
@@ -21,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C21A87716C86ADF00208DDD /* 30secondsToMars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30secondsToMars.jpg; sourceTree = "<group>"; };
+		1C21A87816C86ADF00208DDD /* evanescence.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = evanescence.jpg; sourceTree = "<group>"; };
+		1C21A87916C86ADF00208DDD /* LinkinPark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LinkinPark.jpg; sourceTree = "<group>"; };
+		1C21A87A16C86ADF00208DDD /* Seether.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seether.jpg; sourceTree = "<group>"; };
+		1C21A87B16C86ADF00208DDD /* threeDays.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = threeDays.jpg; sourceTree = "<group>"; };
 		1C25D5A116C84FE50025FDA7 /* quizRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C25D5A416C84FE50025FDA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C25D5A616C84FE50025FDA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C21A87616C86ADF00208DDD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1C21A87716C86ADF00208DDD /* 30secondsToMars.jpg */,
+				1C21A87816C86ADF00208DDD /* evanescence.jpg */,
+				1C21A87916C86ADF00208DDD /* LinkinPark.jpg */,
+				1C21A87A16C86ADF00208DDD /* Seether.jpg */,
+				1C21A87B16C86ADF00208DDD /* threeDays.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		1C25D59816C84FE50025FDA7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,7 @@
 		1C25D5AA16C84FE50025FDA7 /* quizRock */ = {
 			isa = PBXGroup;
 			children = (
+				1C21A87616C86ADF00208DDD /* images */,
 				1C25D5B316C84FE50025FDA7 /* timAppDelegate.h */,
 				1C25D5B416C84FE50025FDA7 /* timAppDelegate.m */,
 				1C25D5BC16C84FE50025FDA7 /* MainStoryboard.storyboard */,
@@ -164,6 +187,11 @@
 				1C25D5B916C84FE50025FDA7 /* Default@2x.png in Resources */,
 				1C25D5BB16C84FE50025FDA7 /* Default-568h@2x.png in Resources */,
 				1C25D5BE16C84FE50025FDA7 /* MainStoryboard.storyboard in Resources */,
+				1C21A87C16C86ADF00208DDD /* 30secondsToMars.jpg in Resources */,
+				1C21A87D16C86ADF00208DDD /* evanescence.jpg in Resources */,
+				1C21A87E16C86ADF00208DDD /* LinkinPark.jpg in Resources */,
+				1C21A87F16C86ADF00208DDD /* Seether.jpg in Resources */,
+				1C21A88016C86ADF00208DDD /* threeDays.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
