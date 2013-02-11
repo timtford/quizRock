@@ -14,7 +14,9 @@ UILabel *correctIncorrect;
 UILabel *questionText;
 UITextField *answerText;
 UIImageView *imageText;
-
+    NSArray *qRImages;
+    NSArray *qRQuestions;
+    NSArray *qRAnswers;
     
 }
 
@@ -22,6 +24,12 @@ UIImageView *imageText;
 @property (nonatomic, retain) IBOutlet UILabel *questionText;
 @property (nonatomic, retain) IBOutlet UITextField *answerText;
 @property (nonatomic, retain) IBOutlet UIImageView *imageText;
+@property (nonatomic, retain) NSArray *qRImages;
+@property (nonatomic, retain) NSArray *qRQuestions;
+@property (nonatomic, retain) NSArray *qRAnswers;
+
+
+
 -(IBAction)submit:(id)sender;
 -(IBAction)next:(id)sender;
 
