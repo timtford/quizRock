@@ -10,13 +10,20 @@
 
 @interface timViewController : UIViewController  {
 
-UILabel *correctIncorrect;
-UILabel *questionText;
-UITextField *answerText;
-UIImageView *imageText;
+    
+    UILabel *correctIncorrect;
+    UILabel *questionText;
+    UITextField *answerText;
+    UIImageView *imageText;
+    
     NSArray *qRImages;
     NSArray *qRQuestions;
     NSArray *qRAnswers;
+    
+    int compareCheck;
+    
+    UIButton *submitButton;
+    UIButton *nextButton;
     
 }
 
@@ -24,14 +31,16 @@ UIImageView *imageText;
 @property (nonatomic, retain) IBOutlet UILabel *questionText;
 @property (nonatomic, retain) IBOutlet UITextField *answerText;
 @property (nonatomic, retain) IBOutlet UIImageView *imageText;
+@property (nonatomic, retain) IBOutlet UIButton *submitButton;
+@property (nonatomic, retain) IBOutlet UIButton *nextButton;
 @property (nonatomic, retain) NSArray *qRImages;
 @property (nonatomic, retain) NSArray *qRQuestions;
 @property (nonatomic, retain) NSArray *qRAnswers;
-
+@property (nonatomic) int compareCheck;
 
 
 -(IBAction)submit:(id)sender;
 -(IBAction)next:(id)sender;
-
+-(IBAction)removeKeyboard;
 
 @end
